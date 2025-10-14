@@ -1,6 +1,7 @@
 body {
     margin: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
 }
 
 .avatar {
@@ -14,7 +15,7 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background-color: #fdf0d5;
+    background-color: #f7a072;
     color: #003049;
     border-right: 3px solid #669bbc;
     border-top: 3px solid #669bbc;
@@ -22,13 +23,14 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     animation-name: myCard;
     animation-duration: 3s;
+ 
 }
 
 .card:hover {
-  background-color: #f7a072;  
+  background-color: #f9dba0;  
 }
 
 @keyframes myCard {
-  from  {background-color: rgba(255, 247, 2, 0.842);}
-   to   {background-color: #f7a072;}
+  from  {background-color: #f7a072;}
+   to   {background-color:  #f9dba0;}
 }
